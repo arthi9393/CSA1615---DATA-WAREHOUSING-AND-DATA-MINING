@@ -1,0 +1,20 @@
+WEKA QUESTION 13
+
+TASK
+Apriori association rules. Set lowerBoundMinSupport so the minimum support count is 3 for 8 transactions (37.5%); set minMetric/confidence to 0.70. Identify strongest rules.
+
+DATASET
+grocery.arff
+
+HOW TO RUN IN WEKA EXPLORER
+1. Open WEKA.
+2. Select Explorer.
+3. Open the Preprocess tab and click Open file.
+4. Select the ARFF file included with question Q13.
+5. If this question requires classification, confirm the class attribute is the final target attribute named in the task.
+6. Select the relevant tab and algorithm/filter described above.
+7. Click Start or Apply as appropriate.
+8. Save your result and take a screenshot of the actual WEKA window.
+
+IMPORTANT
+WEKA questions are performed through WEKA Explorer using ARFF datasets and GUI settings; they are not standalone Java source-code programs. Output values depend on WEKA version, options and evaluation mode. Capture actual results after running the workflow; no fabricated results are included.

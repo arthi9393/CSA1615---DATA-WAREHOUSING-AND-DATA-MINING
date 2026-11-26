@@ -1,0 +1,15 @@
+@relation vehicle
+@attribute EnginePower numeric
+@attribute Weight numeric
+@attribute Mileage numeric
+@attribute VehicleType {Hatchback,Sedan,SUV}
+@data
+70,900,20,Hatchback
+90,1100,18,Sedan
+120,1500,14,SUV
+80,950,19,Hatchback
+100,1250,16,Sedan
+140,1800,12,SUV
+75,920,21,Hatchback
+110,1300,15,Sedan
+150,1900,11,SUV

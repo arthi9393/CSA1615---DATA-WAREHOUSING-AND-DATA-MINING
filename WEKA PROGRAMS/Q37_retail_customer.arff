@@ -1,0 +1,14 @@
+@relation retail_customer
+@attribute Age numeric
+@attribute Income numeric
+@attribute Visits numeric
+@attribute Purchase {Yes,No}
+@data
+21,22000,4,No
+25,28000,6,No
+29,35000,8,Yes
+33,42000,10,Yes
+38,50000,12,Yes
+45,62000,15,Yes
+52,75000,16,Yes
+27,30000,7,No

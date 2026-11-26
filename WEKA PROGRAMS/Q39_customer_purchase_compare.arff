@@ -1,0 +1,16 @@
+@relation customer_purchase_compare
+@attribute Age numeric
+@attribute Income numeric
+@attribute OnlineVisits numeric
+@attribute Purchased {Yes,No}
+@data
+21,24000,3,No
+26,32000,5,No
+30,45000,8,Yes
+35,52000,10,Yes
+41,65000,13,Yes
+48,78000,15,Yes
+24,29000,4,No
+38,58000,11,Yes
+55,85000,16,Yes
+32,47000,7,No

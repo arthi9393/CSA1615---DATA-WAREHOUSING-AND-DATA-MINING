@@ -1,0 +1,14 @@
+@relation bank_risk
+@attribute Balance numeric
+@attribute Age numeric
+@attribute Transactions numeric
+@attribute RiskLevel {Low,Medium,High}
+@data
+12000,23,8,High
+25000,31,15,Medium
+45000,42,20,Low
+18000,27,10,High
+52000,48,25,Low
+32000,36,18,Medium
+15000,25,7,High
+60000,52,28,Low

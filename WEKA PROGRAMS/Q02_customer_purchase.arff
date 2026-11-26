@@ -1,0 +1,13 @@
+@relation customer_purchase
+@attribute Age numeric
+@attribute Income numeric
+@attribute Purchase {Yes,No}
+@data
+22,25000,No
+25,32000,No
+28,45000,Yes
+31,52000,Yes
+35,60000,Yes
+40,72000,Yes
+23,28000,No
+29,48000,Yes

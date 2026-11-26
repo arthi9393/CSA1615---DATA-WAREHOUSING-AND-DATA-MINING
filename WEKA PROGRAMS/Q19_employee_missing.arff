@@ -1,0 +1,13 @@
+@relation employee_missing
+@attribute Age numeric
+@attribute Salary numeric
+@attribute Department {IT,HR,Sales}
+@data
+25,35000,IT
+30,42000,HR
+?,48000,IT
+35,?,Sales
+40,60000,HR
+28,39000,Sales
+?,52000,IT
+45,70000,HR

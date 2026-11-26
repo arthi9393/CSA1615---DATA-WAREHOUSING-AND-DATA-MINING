@@ -1,0 +1,15 @@
+@relation customer_em
+@attribute Age numeric
+@attribute Income numeric
+@attribute SpendingScore numeric
+@data
+22,28000,35
+25,32000,40
+27,35000,45
+30,42000,55
+34,50000,60
+38,58000,70
+42,68000,78
+46,76000,85
+24,30000,38
+36,54000,65

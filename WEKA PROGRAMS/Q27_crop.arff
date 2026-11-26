@@ -1,0 +1,15 @@
+@relation crop
+@attribute SoilType {Sandy,Loamy,Clay}
+@attribute Rainfall numeric
+@attribute Temperature numeric
+@attribute Crop {Rice,Wheat,Millet}
+@data
+Clay,1200,28,Rice
+Loamy,900,24,Wheat
+Sandy,500,30,Millet
+Clay,1100,27,Rice
+Loamy,850,22,Wheat
+Sandy,450,31,Millet
+Clay,1300,29,Rice
+Loamy,800,23,Wheat
+Sandy,600,30,Millet

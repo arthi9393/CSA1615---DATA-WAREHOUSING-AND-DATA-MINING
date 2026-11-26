@@ -1,0 +1,13 @@
+@relation employee_clustering
+@attribute Age numeric
+@attribute Salary numeric
+@attribute CreditScore numeric
+@data
+25,35000,620
+28,42000,650
+31,48000,690
+35,55000,720
+40,70000,760
+45,82000,790
+24,33000,610
+38,65000,745

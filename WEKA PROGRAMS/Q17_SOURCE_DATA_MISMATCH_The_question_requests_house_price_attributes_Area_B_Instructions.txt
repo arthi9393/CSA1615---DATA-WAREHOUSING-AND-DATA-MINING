@@ -1,0 +1,20 @@
+WEKA QUESTION 17
+
+TASK
+SOURCE DATA MISMATCH: The question requests house-price attributes (Area, Bedrooms, Bathrooms, Price), but the supplied dataset in the source is Employee Missing (Age, Salary, Department). This folder preserves the supplied dataset. It cannot perform the requested house-price regression as written. Ask for the correct house dataset if house-price LinearRegression is required.
+
+DATASET
+employee_missing.arff
+
+HOW TO RUN IN WEKA EXPLORER
+1. Open WEKA.
+2. Select Explorer.
+3. Open the Preprocess tab and click Open file.
+4. Select the ARFF file included with question Q17.
+5. If this question requires classification, confirm the class attribute is the final target attribute named in the task.
+6. Select the relevant tab and algorithm/filter described above.
+7. Click Start or Apply as appropriate.
+8. Save your result and take a screenshot of the actual WEKA window.
+
+IMPORTANT
+WEKA questions are performed through WEKA Explorer using ARFF datasets and GUI settings; they are not standalone Java source-code programs. Output values depend on WEKA version, options and evaluation mode. Capture actual results after running the workflow; no fabricated results are included.

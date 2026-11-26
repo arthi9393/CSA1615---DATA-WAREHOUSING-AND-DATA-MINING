@@ -1,0 +1,16 @@
+@relation diabetes
+@attribute Age numeric
+@attribute Glucose numeric
+@attribute BMI numeric
+@attribute Diabetes {Yes,No}
+@data
+25,95,22.5,No
+32,130,28.1,Yes
+41,145,31.2,Yes
+29,105,24.8,No
+50,160,34.5,Yes
+36,120,27.0,No
+45,150,32.1,Yes
+27,100,23.5,No
+55,170,36.0,Yes
+39,115,26.5,No

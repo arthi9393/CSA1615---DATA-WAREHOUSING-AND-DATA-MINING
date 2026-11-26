@@ -1,0 +1,14 @@
+@relation loan_approval
+@attribute Income numeric
+@attribute Age numeric
+@attribute Employment {Employed,SelfEmployed,Unemployed}
+@attribute LoanStatus {Approved,Rejected}
+@data
+25000,23,Employed,Rejected
+32000,28,Employed,Approved
+45000,35,Employed,Approved
+28000,31,SelfEmployed,Rejected
+60000,42,SelfEmployed,Approved
+22000,25,Unemployed,Rejected
+52000,38,Employed,Approved
+35000,29,SelfEmployed,Approved

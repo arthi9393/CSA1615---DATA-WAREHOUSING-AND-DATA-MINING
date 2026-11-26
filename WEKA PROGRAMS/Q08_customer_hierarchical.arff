@@ -1,0 +1,14 @@
+@relation customer_hierarchical
+@attribute Region {North,South,East,West}
+@attribute Visits numeric
+@attribute Purchases numeric
+@attribute Rating numeric
+@data
+North,12,3,3
+North,18,5,4
+South,9,2,2
+South,14,4,3
+East,22,7,5
+East,20,6,4
+West,8,1,2
+West,11,3,3

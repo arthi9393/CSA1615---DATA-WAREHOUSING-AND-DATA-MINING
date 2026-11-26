@@ -1,0 +1,14 @@
+@relation credit_approval
+@attribute Income numeric
+@attribute Debt numeric
+@attribute EmploymentStatus {Employed,SelfEmployed,Unemployed}
+@attribute Approved {Yes,No}
+@data
+25000,12000,Employed,No
+35000,10000,Employed,Yes
+45000,8000,Employed,Yes
+30000,18000,SelfEmployed,No
+55000,9000,SelfEmployed,Yes
+22000,15000,Unemployed,No
+48000,7000,Employed,Yes
+38000,11000,SelfEmployed,Yes

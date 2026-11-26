@@ -1,0 +1,20 @@
+WEKA QUESTION 3
+
+TASK
+Apriori association rules. In Explorer: Associate > Choose > Apriori. Set lowerBoundMinSupport to 0.25 and minMetric (confidence) to 0.60. Run and list the generated rules.
+
+DATASET
+weather.arff
+
+HOW TO RUN IN WEKA EXPLORER
+1. Open WEKA.
+2. Select Explorer.
+3. Open the Preprocess tab and click Open file.
+4. Select the ARFF file included with question Q03.
+5. If this question requires classification, confirm the class attribute is the final target attribute named in the task.
+6. Select the relevant tab and algorithm/filter described above.
+7. Click Start or Apply as appropriate.
+8. Save your result and take a screenshot of the actual WEKA window.
+
+IMPORTANT
+WEKA questions are performed through WEKA Explorer using ARFF datasets and GUI settings; they are not standalone Java source-code programs. Output values depend on WEKA version, options and evaluation mode. Capture actual results after running the workflow; no fabricated results are included.

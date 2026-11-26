@@ -1,0 +1,14 @@
+@relation medical_screening
+@attribute BloodPressure numeric
+@attribute Cholesterol numeric
+@attribute Age numeric
+@attribute Risk {Low,High}
+@data
+118,170,25,Low
+135,220,45,High
+125,190,35,Low
+145,240,55,High
+130,210,42,High
+115,165,28,Low
+150,250,60,High
+122,180,32,Low

@@ -1,0 +1,14 @@
+@relation telecom_churn
+@attribute Age numeric
+@attribute MonthlyCharge numeric
+@attribute ContractType {Monthly,Yearly}
+@attribute Churn {Yes,No}
+@data
+22,45,Monthly,Yes
+28,55,Monthly,Yes
+35,60,Yearly,No
+42,70,Yearly,No
+25,50,Monthly,Yes
+38,65,Yearly,No
+31,58,Monthly,No
+47,75,Yearly,No
